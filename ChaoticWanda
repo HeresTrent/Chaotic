@@ -1,0 +1,5 @@
+local args = {
+    [1] = "WandaHOM"
+}
+
+game:GetService("ReplicatedStorage").ChangePlayerCharacter:FireServer(unpack(args))
